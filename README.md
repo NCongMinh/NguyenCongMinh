@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Contributing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Please submit bug reports, suggestions and pull requests to the [Github issue tracker](https://docs.github.com/en/issues/tracking-your-work-with-issues).
 
-Currently, two official plugins are available:
+We're particularly interested in fixing edge cases, expanding test coverage and updating translations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git remote set-url upstream https://github.com/PHPMailer/PHPMailer.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# History
+  * PHPMailer was originally written in 2001 by Brent R. Matzelle as a SourceForge project.
+  * Marcus Bointon (coolbru on SF) and Andy Prevost (codeworxtech) took over the project in 2004.
